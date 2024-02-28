@@ -15,10 +15,15 @@ start server : npm /file-name/
 This repository contains EJS files in the views folder with the following pages:
 
 Home: views/index.ejs
+
 About: views/about.ejs
+
 Create: views/create.ejs
+
 Error: views/404.ejs
 
-Feel free to customize this README further to suit your preferences and course content. Happy coding!
+--------------------------------------------------
+
+#### Feel free to customize this README further to suit your preferences and course content. Happy coding!
 
 ## -@thaya-rk👽
