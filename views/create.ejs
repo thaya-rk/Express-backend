@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document | <%=title %></title>
-</head>
+    <%- include('./partials/body.ejs') %>
+
 <body>
-    <nav>
-        <div class="site-title">
-            <a href="/"><h1>welcome to site</h1></a>
-            <p>This is a page</p>
-        </div>
-        <ul>
-            <li><a href="/">Blogs</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/create">New Blog</a></li>
-        </ul>
-    </nav>
+    <%- include('./partials/nav.ejs') %>
+
     <h1>Create  New Blog Post</h1>
     <div class="create-box">
         <form >
@@ -30,5 +18,7 @@
         </form>
     </div>
     </div>
+    <%- include('./partials/footer.ejs') %>
+
 </body>
 </html>
