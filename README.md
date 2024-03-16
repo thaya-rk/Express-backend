@@ -8,7 +8,7 @@ Install dependencies:
 
 npm install
 
-start server : npm /file-name/
+start server : node /file-name/
 
 ### Pages
 
